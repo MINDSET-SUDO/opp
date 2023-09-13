@@ -183,7 +183,7 @@ include virtual machines and servers
 
 3.patching of the systems may be a bit difficult
 
-**characteristics**
+**Characteristics**
 
 1.Resources sharing 
 
