@@ -145,3 +145,76 @@ design prototype is not working well helps users understand challenges facing th
 design prototype are thrown away 
 
 more stable and reliable systems 
+
+
+# Distributed systems
+ cmt 301
+## lecture 0ne
+
+introduction
+--
+distributed system/distributed computing 
+
+This is a system with multiple components located in different locations communicate  and share resources in order to do different task in the network
+
+include virtual machines and servers
+
+**Benefits**
+
+1.nodes in the distributed systems are connected to each other and one can share resources
+
+2.easily add a node (scalability)
+
+3.failure of one node does not lead to failure of the entire distributed systems
+
+4.sharing of resources like printers
+
+5.Doing different tasks at a time from different locations 
+
+6.cost effective 
+
+7.multiple processing can be done in the system
+
+**challenges** 
+
+1.overloading of a request can lead to down fall of the entire system
+
+2.incase of malicious attack On one node it may attack the entire system
+
+3.patching of the systems may be a bit difficult
+
+**characteristics**
+
+1.Resources sharing 
+
+2.scalability 
+
+3.fault tolerance 
+
+4.compatibility
+
+5.transparency (hides the complexity of the distributed system to the user)
+
+**Types of distributed systems**
+
+1.client - server system 
+
+client - requests resources 
+
+2.peer to peer system
+
+nodes in peer to peer system have all equal rights
+
+**advantages**
+
+sharing of resources is equal to all nodes
+
+failure of one node does not affect the system 
+
+**Disadvantages**
+
+
+
+
+
+
