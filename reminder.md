@@ -9,7 +9,7 @@ planning ,analysis ,design and implementation
 unified modelling language(uml) accelerated the change to system analysis and design
 
 **system analyst** analyses the business situation identify opportunity for improvement and designs the system.
-challenges the way the current organisaton works
+challenges the way the current organization works
 
 **objective for a system analyst**
 to create value for the organisation hence increasing profits 
@@ -41,7 +41,7 @@ fundamental process of understanding why a system should be build
   step two:requirements gathering done through interviews
   
   step three:system proposal development 
-  analysis system concept and models are combinedinto a document called **system proposal** 
+  analysis system concept and models are combined into a document called **system proposal** 
   
   it describes the business requirements  the new system should meet
 
@@ -56,20 +56,24 @@ fundamental process of understanding why a system should be build
   step two:development of basic architecture design 
   describes hardware software and network infrastructure 
 
-  step three:data base and file specificaton are developed
+  step three:
+  
+  `data base and file specificaton are developed
 
-  step four:program design defines the programs should be written and function of these programs(**system specification**)
+  step four:
+  
+  program design defines the programs should be written and function of these programs(**system specification**)
 
-4.**IMPLEMENTATION**
+4. **IMPLEMENTATION**
 
 final phase,gets most attention longest and most expensive 
 
 step one :system construction
 
-system is build and tested to  ensureit performs as designed 
+system is build and tested to  ensure it performs as designed 
 
-step two:sytem installation 
-old system is turned off and the new one is included ik vn the sytem 
+step two: system installation 
+old system is turned off and the new one is included ik vn the system 
 
 most important aspects is to train the users to the new system and help manage the new system
 
@@ -89,14 +93,15 @@ A methodology is a formalized apporach to implenting the SDLC
 
 **object oriented methodologies** attempts to balance the focus  on both process and data and incorporating them to one model
 
-classes of system methodologies
+*classes of system methodologies*
+-
 
 
 1.structured design
 
 first category adopted in 1980's
 
-adopts a step by step appproach 
+adopts a step by step approach 
     example is the **1a.waterfall development**
 
     analysts and users proceed in sequence from one phase to the next
@@ -107,7 +112,7 @@ adopts a step by step appproach
 
 2.minimizes changes to the requirements
 
-**1b.parallel development**
+**1b. parallel development**
 
 attempts to address the problem of long delays between analysis phase and delivery 
 
@@ -116,11 +121,11 @@ primary advantage is to reduce the time to deliver the system
 **2.rapid application development(R.A.D)**
 
 attempt to address the weakness of structured methodology
-recommends analysts to use special techniques and computer tools to speed up the analysis ,design and implentation  such as computer aided software
+recommends analysts to use special techniques and computer tools to speed up the analysis ,design and implementation  such as computer aided software
 
 *2a. phased development*
 
-breaks the overall system into a series of versions that are developed sequencial
+breaks the overall system into a series of versions that are developed sequential
 
 disadvantage 
 users work with systems that are intentionally incomplete
@@ -146,7 +151,134 @@ design prototype are thrown away
 
 more stable and reliable systems 
 
+**3.Agile methodologies**
 
+focus is on the developers
+
+based on 12 principles ;they include:
+
+1.software is delivered early satisfying the customer
+
+2.changing requirements are made
+
+3.working software is delivered to the customer
+
+4.customers and developers work together to face the challenges facing the system
+
+5.motivated individuals provide solutions 
+
+6.face to face communication within development time 
+
+7.primary measure of the progress
+
+8.customers and developers work at a pace that is timed 
+
+9.simplicity 
+
+10.technical excellence 
+
+12.reflection from the development times to improve the end product
+
+*critics to agile methodology*
+
+1.business premises
+
+2.if not carefully managed by definition its not 
+
+3.large mission critical systems solutions 
+
+**based on agile**
+
+scrum and extreme programming 
+
+*1a.extreme programming* founded on 4 core values 
+
+comments on various systems of the code
+
+recommended for small groups of developers
+
+large systems build with extreme programming become hard to maintain
+
+can not handle mission  critical business enterprises
+
+*b.scrum programming*
+
+as soon software development  starts to develop chaos break out and planning fails 
+
+iteration takes about 31 working days 
+
+most chaotic
+
+non progress
+ 
+ *practice*
+
+teams organize themselves 
+
+once iteration has began no addition of any other inputs
+
+scrum meeting takes place on each day,any block identified its dealt with  
+
+*limitation*
+
+1.questionable since it cannot deal with mission critical systems 
+
+2.not more than 7 members
+
+*key things to consider while selecting a methodology*
+
+1.Clarity of user requirement(users need to interact with technology to give more reliable feed back )(RAD or AGILE is best sine  the users are involved )
+
+2.familiarity  with technology(RAD since one has to understand and learn the technology)
+
+3.systems complexity
+
+4.system reliability (important factor in systems development)(agile method is the best)
+
+5.short time  schedules
+
+6.schedule visibility
+
+*SYSTEMS ANALYSIS ROLES AND  SKILLS*
+Major categories of skills 
+
+technical skill
+( to understand the organization technical environment )
+
+business skills
+(to understand how IT will be applied to the investments)
+
+analytical skills(problem solvers to the organization)
+
+interpersonal skills (communication)
+
+management skills
+
+ethical skills 
+
+**discuss the roles of the following in terms of their qualification 
+competence 
+development phases 
+
+business analyst
+system analyst
+infrastructure analyst
+change management
+project analyst
+
+x-stics of object oriented systems
+
+objects 
+
+classes template define and create objects
+
+methods 
+
+processes that the object should carry out include making an appointment checking last visit
+
+inheritance 
+
+polymorphism
 # Distributed systems
  cmt 308
  ## lecture 0ne
@@ -295,4 +427,4 @@ cloud computing,mobile and IoT(internet of things)
 
 fog and edge computing
 
-(Decentralization of resources breaches the gab between client and servers)
+(Decentralization of resourcves breaches the gab between client and servers)
