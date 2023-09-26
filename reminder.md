@@ -69,7 +69,7 @@ step one :system construction
 system is build and tested to  ensureit performs as designed 
 
 step two:sytem installation 
-old system is turned off and the new one is included in the sytem 
+old system is turned off and the new one is included ik vn the sytem 
 
 most important aspects is to train the users to the new system and help manage the new system
 
@@ -148,8 +148,8 @@ more stable and reliable systems
 
 
 # Distributed systems
- cmt 301
-## lecture 0ne
+ cmt 308
+ ## lecture 0ne
 
 introduction
 --
@@ -183,23 +183,47 @@ include virtual machines and servers
 
 3.patching of the systems may be a bit difficult
 
-**Characteristics**
+4.data can be lost when moving it from one node to another 
+
+5.troubleshooting and diagnostics can be difficult since you are working with different nodes at different locations
+
+**Characteristics/elements**
 
 1.Resources sharing 
 
-2.scalability 
+2.scalability(adding more components to the system)
 
-3.fault tolerance 
+3.fault tolerance (system should continue working if a node fails)
 
 4.compatibility
 
 5.transparency (hides the complexity of the distributed system to the user)
 
+6.concurrency
+
+6.openness(no limitation )
+
 **Types of distributed systems**
 
 1.client - server system 
 
-client - requests resources 
+client - requests resources
+
+server -process/allocates  resources
+
+**adavantages**
+
+centralized system 
+
+cost effective in the long run
+
+**disadvantage**
+
+traffic issues
+
+expensive in setting up
+
+server failure may cripple the entire system
 
 2.peer to peer system
 
@@ -211,10 +235,64 @@ sharing of resources is equal to all nodes
 
 failure of one node does not affect the system 
 
+scalability
+
 **Disadvantages**
 
+no centralized system making it difficult to manage 
 
+high risks of virus attacks
 
+less secure due to transverse exchange 
+ 
+files and resources are not centrally organized 
 
+3.Three tier
 
+uses separate servers and layers for each function of a program
+ 
+ layers include:
 
+ presentation layer(data encryption occurs)
+
+ application layer(human interaction layer i.e access)
+
+ data  link layer(defines format on data in the system)
+
+4.N-tier distributed system
+
+follows a similar structure to the three-tier but it can contain any number of functions in the system 
+
+**APPLICATION AREAS OF DISTRIBUTED SYSTEMS**
+
+finance and commerce
+
+cloud technologies
+
+health care (online patient records) 
+
+education(e learning)
+
+environment management
+
+transport and logistics(google maps)
+
+information society(search engines)
+
+**evolution of distributed systems**
+
+mainframe (1960-1967)
+
+cluster networks(1970s)altenative for mainframe computers
+
+internet and pcs(TCP/IP)connecting difgit ferent networks
+
+world wide web -global interconnection
+
+p2p,grids and web services
+
+cloud computing,mobile and IoT(internet of things)
+
+fog and edge computing
+
+(Decentralization of resources breaches the gab between client and servers)
