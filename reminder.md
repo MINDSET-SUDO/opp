@@ -257,7 +257,7 @@ management skills
 ethical skills 
 
 **discuss the roles of the following in terms of their qualification 
-competence 
+competence**
 development phases 
 
 business analyst
@@ -428,3 +428,90 @@ cloud computing,mobile and IoT(internet of things)
 fog and edge computing
 
 (Decentralization of resourcves breaches the gab between client and servers)
+
+
+# DATA STRUCTURES AND ALGORITHMS 
+
+**Data structures** - way of collecting and organizing data in such a way that we can perform operations on this data in an effective way.
+
+**Data structures** - building blocks of any program or software 
+
+**Examples of data structures**
+
+1.Array
+
+2.Stack
+
+3.Queue
+
+4.Linked list
+
+**Terminologies**
+
+**Data** - collection of values 
+
+**Grouped items** - data items with subordinates 
+
+**Record** - collection of various data items
+
+**file** - collection of various records
+
+**Attributes** - characteristics of an entity
+
+**field** - single elementary unit of information representing attribute of an entity
+
+**Need for data structures**
+
+.gives different ways of organizing data
+
+tells how data can be stored and accused in its elementary level
+
+provides operations on groups of data such as adding an item 
+
+provides means to manage huge amount of data efficiently 
+
+provides fast and searching and sorting data 
+
+**Goals of data structures**
+
+correctness
+
+efficiency 
+
+**Features of data structures**
+
+*robustness* - generating correct output for every possible input provided.
+
+*Adaptability* - 
+
+*user-ability* - 
+
+**classifications of data structures**
+
+- **primitive data structures** 
+
+consist of the numbers and characters build in programs 
+
+  can  be manipulated or operated directly by machine level instructions 
+
+  also called **Single data types** since they consist of characters that can not be divided 
+
+  - **non-primitive data structures**
+  
+  they can  not be manipulated or operated by machine level operations 
+
+  further divided into: 
+
+  1.**Linear data structures**
+     
+     maintains linear relationships among its elements 
+
+     data is arranged in a linear fashion but memory management is not sequential  
+
+2.**Non linear data structures**
+
+data elements are not arranged in a sequential order 
+
+there is hierachical relationship between data items 
+
+insertion and deletion of data is not possible examples include Tree and Graph 
